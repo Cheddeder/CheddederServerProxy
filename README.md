@@ -1,17 +1,58 @@
-# EaglerProxy as a Service
-**THIS PROXY IS ONLY SUITABLE FOR EAGLERCRAFTX VERSIONS u15 AND u16. OLDER AND NEWER VERSIONS MAY NOT CONNECT OR OPTIMALLY FUNCTION.**  
-**Note: The `launcher_accounts.json` is automatically created by a Node.js module being used. Do not worry about it, no actual user credentials are being saved.**
-An EaglercraftX-to-1.8.9 proxy. Allows EaglercraftX clients to connect to any online 1.8.9 server of their choosing.
-## Disclaimer
-## **DO NOT JOIN HYPIXEL FROM THIS PROXY AND FROM YOUR HOME INTERNET IN QUICK SUCCESSION! YOU WILL GET SECURITY BANNED!**
+# readme!!!
+this repository has reached its end, after like idk 1 and a half years of constant updates, the community has slowed down and new exploits are months apart. if you need contact, email me at stanleygriffin99@gmail.com (do not question the email.) the repository will be permanently archived and my journey will continue another year or something. (its also draining dealing with issues, asking for updates, and overall maintaining repositories alone.) if you want to join the team just make a business inquiry with your skills and maybe we could actually do something.
 
-This proxy requires you to log in via Microsoft with an account with Minecraft: Java Edition ownership to obtain necessary Minecraft session tokens to connect to online game servers. For security reasons, no login data is saved nor captured, and this repo's source code is available to the public. Please be careful when using forks of this project, as they may contain edits to the source code used to capture session tokens and use them for malicious purposes.
+# how to "un~~en~~roll" (complicated)
+If you're intrested in unrolling your cb, (which is dangerous and sometimes ~~illegal~~, see [unroll.md](https://github.com/zek-c/securly-kill-v111/unroll.md)
 
-In addition, there is no 100% guarantee that EaglercraftX is completely safe for use on vanilla game servers. While initial testing on the proxy has returned positive results, there still exists a possibiltity of the game accidentally tripping a server's anticheat and getting you banned. You have been warned.
+# state of the repo
 
-TL;DR: You need to log in with a Microsoft account with Minecraft on it. Do not enter any account credentials on any forked repls of this repl you do not trust. Also, you might trigger some anticheats and get banned, although the probability of this happening is very low.
-## How to Play
-1. Connect to the proxy server.
-2. Log in via Microsoft.
-3. Join any server of your choice by running `/join <server> <ip>`.
-4. Have fun!
+lately as you can tell, there has been little to no pushes. the exploit community is running dry and there is no new content. theres no longer much to update. this repository "may" be archived in the coming months.
+
+## NEW EXPLOIT (by [dragon731012](https://github.com/dragon731012)), [cauDNS!](https://github.com/dragon731012/caudns)
+<br>
+usage instructions: 
+<hr>
+    Head to <a href="https://caudns.vercel.app">Dragon's Vercel</a> or my <a href="https://zekurly.netlify.app/cauDNS.html">mirror</a>
+    <hr>
+        head to chrome://network#state, and expand your most commonly used wifi networks then copy the contents
+        <hr> 
+            Paste contents into the input field, and generate the file, then import it at the bottom of chrome://network#general
+            <hr>
+that should be it, you've successfully blocked multiple extensions
+
+# as of ChromeOS V119, all of these below methods are patched. use [caub](https://caub.glitch.me/old) to stop updates or [downgrade](https://chrome100.dev) to keep these exploits working
+<hr>
+
+# before you use insecurly
+<br>
+bypassi has found yet another awesome exploit,
+both links are <a href="https://skiovox.com">here</a> and <a href="https://github.com/bypassiwastaken/skiovox-helper">here</a>. this exploit allows you to go into a browser in kiosk mode and install ANY extension you want and do anything you want. please consider this before insecurly, as it always works and is working on every version (you must have kiosk apps)
+
+
+## PATCHED AS OF V116- (unless you can run bookmarklets)
+NEW EXPLOIT FOUND BY BYPASSI!
+[bypassis new exploit](https://github.com/zek-c/Securly-Kill-V111/blob/main/bypassi.html)
+you can run this exploit at my website, [here](https://zekurly.netlify.app/bypassi), or bypassis website [here](https://insecurly.bypassi.com) or codepen [here](https://codepen.io/zek-c/pen/JjwzvjZ)
+<hr>
+You're probably here to disable "secure"ly. This collection of exploits can bypass or disable securly.
+
+<hr>
+
+step 1. get the bookmarklet [here](https://github.com/zek-c/extension-v111-kill/blob/main/bookmarklet.js) or go to [My Website](https://zekurly.netlify.app) for easy drag and drop to bookmarks bar
+
+<hr>
+
+step 2. Put the JavaScript in a bookmarklet.
+
+<hr>
+
+step 3. go to [Securly](https://securly.com)
+
+<hr>
+
+step 4. click the bookmark and an "OFF" button will appear. Click this and it will turn on the Securly killer (Which should last forever, no need to re enable) and Click it again to turn it off.
+
+<hr>
+
+This will hard disable securly. It won't disable the extension, but corrupt the cookies. it will remove the blocking string it adds to the source code of websites it blocks. it sets the cookies to expire in a date far in the future (Will most likely last longer than securly exists) so you clearly won't ever need to enable this again unless you clear your cookies
+<hr>
